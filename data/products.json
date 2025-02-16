@@ -1,15 +1,15 @@
 [
   {
-    "id": 1,
+    "id": "b6a76356-a536-49c2-811c-4dc4f5a61dde",
     "name": "Coffee Mug - Begbie",
     "photo": "http://localhost:8080/images/begbie_mug.png",
     "price": "$45",
     "stock": 8,
-    "category": "Mug",
-    "collection": "Begbie Collection",
-    "brief-description": "A beautifully handcrafted coffee mug inspired by the majestic Begbie Mountain in Revelstoke.",
-    "full-description": "Embrace the rugged beauty of the outdoors with this earthy, artisan-crafted mug. The design draws inspiration from the textured landscape and natural tones of Begbie Mountain, making it both a visual and tactile delight. With its sturdy form and comfortable grip, this mug is perfect for savoring your morning coffee or afternoon tea. A true piece of craftsmanship that brings the essence of nature to your daily routine.",
-    "care-tips": [
+    "category": "Mugs",
+    "collection": "Begbie",
+    "briefdescription": "A beautifully handcrafted coffee mug inspired by the majestic Begbie Mountain in Revelstoke.",
+    "fulldescription": "Embrace the rugged beauty of the outdoors with this earthy, artisan-crafted mug. The design draws inspiration from the textured landscape and natural tones of Begbie Mountain, making it both a visual and tactile delight. With its sturdy form and comfortable grip, this mug is perfect for savoring your morning coffee or afternoon tea. A true piece of craftsmanship that brings the essence of nature to your daily routine.",
+    "caretips": [
       "Hand wash only to preserve the unique glaze and finish.",
       "Not dishwasher safe.",
       "Avoid sudden temperature changes, such as pouring boiling liquids into a cold mug.",
@@ -19,7 +19,7 @@
     ],
     "reviews": [
       {
-        "id": "87077de3-3e4e-45a5-a40d-cd1b0194185c",
+        "userId": "87077de3-3e4e-45a5-a40d-cd1b0194185c",
         "name": "Jessie Proulx",
         "city": "Amqui",
         "province": "Québec",
@@ -31,16 +31,16 @@
     "tags": ["handmade", "begbie", "mountain", "revelstoke"]
   },
   {
-    "id": 2,
+    "id": "4330514f-6ec3-475a-b3bf-f286d3055417",
     "name": "Coffee Mug - McPherson",
     "photo": "http://localhost:8080/images/mcpherson_mug.png",
     "price": "$45",
     "stock": 6,
-    "category": "Mug",
-    "collection": "McPherson Collection",
-    "brief-description": "A bold and beautifully crafted mug inspired by the rugged McPherson mountain range near Revelstoke.",
-    "full-description": "Channel the untamed beauty of the McPherson mountains with this artisanal mug. Carefully crafted to reflect the bold textures and rugged landscape, each piece features a rich glaze and distinctive design elements that make it truly one of a kind. Perfect for fueling your adventurous spirit with your favorite coffee or tea, this mug combines functional durability with a timeless, nature-inspired aesthetic.",
-    "care-tips": [
+    "category": "Mugs",
+    "collection": "McPherson",
+    "briefdescription": "A bold and beautifully crafted mug inspired by the rugged McPherson mountain range near Revelstoke.",
+    "fulldescription": "Channel the untamed beauty of the McPherson mountains with this artisanal mug. Carefully crafted to reflect the bold textures and rugged landscape, each piece features a rich glaze and distinctive design elements that make it truly one of a kind. Perfect for fueling your adventurous spirit with your favorite coffee or tea, this mug combines functional durability with a timeless, nature-inspired aesthetic.",
+    "caretips": [
       "Hand wash only to maintain the rich glaze and distinctive finish.",
       "Not dishwasher safe.",
       "Avoid sudden temperature changes to prevent cracks or damage.",
@@ -52,16 +52,16 @@
     "tags": ["handmade", "McPherson", "local-inspired", "Revelstoke"]
   },
   {
-    "id": "3",
+    "id": "96a29198-ba97-4e3b-a4f5-a15e54ffb491",
     "name": "Cup",
     "photo": "http://localhost:8080/images/cup.png",
     "price": "$40",
     "stock": 7,
-    "category": "Mug",
-    "collection": "Classic Collection",
-    "brief-description": "A sleek, minimalist cup designed to warm your hands and elevate your coffee ritual.",
-    "full-description": "Enjoy your favorite beverages in this elegant, handle-free coffee cup, thoughtfully designed for a tactile and cozy drinking experience. Its smooth, curved shape fits perfectly in your hands, enhancing the warmth of each sip. Ideal for both hot and cold drinks, it also conveniently fits in most car cup holders, making it a stylish companion for your daily commute or morning routine. The hand-glazed ceramic surface provides a refined, artisan touch, making each piece a unique work of art.",
-    "care-tips": [
+    "category": "Mugs",
+    "collection": "Classic",
+    "briefdescription": "A sleek, minimalist cup designed to warm your hands and elevate your coffee ritual.",
+    "fulldescription": "Enjoy your favorite beverages in this elegant, handle-free coffee cup, thoughtfully designed for a tactile and cozy drinking experience. Its smooth, curved shape fits perfectly in your hands, enhancing the warmth of each sip. Ideal for both hot and cold drinks, it also conveniently fits in most car cup holders, making it a stylish companion for your daily commute or morning routine. The hand-glazed ceramic surface provides a refined, artisan touch, making each piece a unique work of art.",
+    "caretips": [
       "Hand wash only to maintain the artisan glaze and finish.",
       "Not dishwasher safe.",
       "Avoid sudden temperature changes, such as pouring hot liquids into a cold cup.",
@@ -73,16 +73,16 @@
     "tags": ["minimalist", "travel", "to-go", "handcrafted", "coffee"]
   },
   {
-    "id": "4",
+    "id": "a6167a6f-9bda-4a17-b455-365b5e6d7c15",
     "name": "Large Bowl - Pasta/Salad",
     "photo": "http://localhost:8080/images/placeholder.png",
     "price": "$50",
     "stock": 5,
     "category": "Bowl",
-    "collection": "Classic Collection",
-    "brief-description": "A beautifully crafted large bowl ideal for pasta, salads, and family-style meals.",
-    "full-description": "Make every meal a delightful experience with this elegant and generously sized bowl, perfect for serving hearty pastas, vibrant salads, or sharing your favorite dishes with friends and family. Expertly handcrafted, each piece showcases the artisanal touch of skilled craftsmanship, with a smooth finish and organic contours that add charm to any table setting. The durable ceramic construction ensures long-lasting use, while the minimalist design complements both casual and formal dining occasions. Whether you're hosting a dinner party or enjoying a simple family meal, this versatile bowl will elevate your presentation and dining experience.",
-    "care-tips": [
+    "collection": "Classic",
+    "briefdescription": "A beautifully crafted large bowl ideal for pasta, salads, and family-style meals.",
+    "fulldescription": "Make every meal a delightful experience with this elegant and generously sized bowl, perfect for serving hearty pastas, vibrant salads, or sharing your favorite dishes with friends and family. Expertly handcrafted, each piece showcases the artisanal touch of skilled craftsmanship, with a smooth finish and organic contours that add charm to any table setting. The durable ceramic construction ensures long-lasting use, while the minimalist design complements both casual and formal dining occasions. Whether you're hosting a dinner party or enjoying a simple family meal, this versatile bowl will elevate your presentation and dining experience.",
+    "caretips": [
       "Hand wash only.",
       "Avoid sudden temperature changes, as this may cause cracks or breakage.",
       "Do not soak for extended periods.",
@@ -94,16 +94,16 @@
     "tags": ["large", "family", "handcrafted", "pasta", "salad", "kitchen"]
   },
   {
-    "id": "5",
+    "id": "d04b4d15-f476-4fb4-8722-c426c0bef1aa",
     "name": "Bowl",
     "photo": "http://localhost:8080/images/placeholder.png",
     "price": "$38",
     "stock": 9,
     "category": "Bowl",
-    "collection": "Classic Collection",
-    "brief-description": "A beautifully handcrafted bowl designed to elevate your everyday dining experience.",
-    "full-description": "Each bowl is a testament to artisan craftsmanship, carefully shaped and glazed by hand to ensure a truly unique piece. Its versatile size makes it perfect for a variety of uses — from hearty soups and fresh salads to serving snacks or showcasing seasonal fruit. The organic finish and subtle texture highlight the meticulous attention to detail, giving each bowl its own distinct character. Durable yet refined, it seamlessly transitions from casual breakfasts to elegant dinner settings, adding timeless beauty and authenticity to your table.",
-    "care-tips": [
+    "collection": "Classic",
+    "briefdescription": "A beautifully handcrafted bowl designed to elevate your everyday dining experience.",
+    "fulldescription": "Each bowl is a testament to artisan craftsmanship, carefully shaped and glazed by hand to ensure a truly unique piece. Its versatile size makes it perfect for a variety of uses — from hearty soups and fresh salads to serving snacks or showcasing seasonal fruit. The organic finish and subtle texture highlight the meticulous attention to detail, giving each bowl its own distinct character. Durable yet refined, it seamlessly transitions from casual breakfasts to elegant dinner settings, adding timeless beauty and authenticity to your table.",
+    "caretips": [
       "Hand wash only.",
       "Avoid sudden temperature changes, such as placing directly from the fridge into hot water.",
       "Use a soft sponge and mild detergent to clean.",
@@ -115,16 +115,16 @@
     "tags": ["artisan", "versatile", "handcrafted", "kitchen", "soup", "salad"]
   },
   {
-    "id": "6",
+    "id": "644d6103-75c3-4dc5-806a-a3417642bb90",
     "name": "Dinner Plate",
     "photo": "http://localhost:8080/images/dinner_set.png",
     "price": "$55",
     "stock": 6,
     "category": "Plate",
-    "collection": "Classic Collection",
-    "brief-description": "Elegant yet durable, this plate elevates your dining experience.",
-    "full-description": "Crafted with meticulous attention to detail, this elegant yet durable dinner plate is designed to elevate your dining experience. Its smooth, artisan glaze not only enhances the presentation of your meals but also provides a protective layer that resists scratches and stains. The gently curved edges help contain sauces and juices, making it perfect for everything from casual weeknight dinners to more refined gatherings. Sturdy enough for daily use yet refined enough for special occasions, this plate brings timeless style and functionality to your table, ensuring every meal is served beautifully.",
-    "care-tips": [
+    "collection": "Classic",
+    "briefdescription": "Elegant yet durable, this plate elevates your dining experience.",
+    "fulldescription": "Crafted with meticulous attention to detail, this elegant yet durable dinner plate is designed to elevate your dining experience. Its smooth, artisan glaze not only enhances the presentation of your meals but also provides a protective layer that resists scratches and stains. The gently curved edges help contain sauces and juices, making it perfect for everything from casual weeknight dinners to more refined gatherings. Sturdy enough for daily use yet refined enough for special occasions, this plate brings timeless style and functionality to your table, ensuring every meal is served beautifully.",
+    "caretips": [
       "Hand wash recommended for longevity.",
       "Dishwasher safe on the top rack, but hand washing preserves the finish.",
       "Avoid exposure to direct flame or extreme temperatures.",
@@ -136,192 +136,192 @@
     ]
   },
   {
-    "id": "7",
+    "id": "a0f61c2b-5dd0-4b63-8641-77fc377ce027",
     "name": "Dinnerset for Two",
     "photo": "http://localhost:8080/images/dinner_set.png",
     "price": "$225",
     "stock": 4,
     "category": "Plate",
-    "collection": "Classic Collection",
-    "brief-description": "A complete dining set for two.",
-    "full-description": "Transform your everyday dining experience with this beautifully handcrafted dinner set. Thoughtfully designed for couples or intimate gatherings, it includes 2 cups for warm morning beverages, 2 mugs for that perfect afternoon pick-me-up, 2 large plates to present your favorite meals elegantly, 2 versatile bowls for hearty salads or comforting soups, and 2 saucers to complete your setting with refined charm. The earthy tones and artisan craftsmanship bring warmth and sophistication to your table, making every meal feel like a special occasion. Whether it's a cozy breakfast, a vibrant lunch, or a candlelit dinner, this set elevates your dining moments with beauty and function.",
-    "care-tips": ["Hand wash only.", "Do not microwave or use in the oven.", "Avoid prolonged exposure to moisture.", "Use a mild detergent and soft cloth for cleaning.", "Store in a dry place away from direct sunlight." 
+    "collection": "Classic",
+    "briefdescription": "A complete dining set for two.",
+    "fulldescription": "Transform your everyday dining experience with this beautifully handcrafted dinner set. Thoughtfully designed for couples or intimate gatherings, it includes 2 cups for warm morning beverages, 2 mugs for that perfect afternoon pick-me-up, 2 large plates to present your favorite meals elegantly, 2 versatile bowls for hearty salads or comforting soups, and 2 saucers to complete your setting with refined charm. The earthy tones and artisan craftsmanship bring warmth and sophistication to your table, making every meal feel like a special occasion. Whether it's a cozy breakfast, a vibrant lunch, or a candlelit dinner, this set elevates your dining moments with beauty and function.",
+    "caretips": ["Hand wash only.", "Do not microwave or use in the oven.", "Avoid prolonged exposure to moisture.", "Use a mild detergent and soft cloth for cleaning.", "Store in a dry place away from direct sunlight." 
     ],
     "reviews": [],
     "tags": ["kitchen", "dinner", "plate"
     ]
   },
   {
-    "id": "8",
+    "id": "d9b97c95-b4cc-469e-854d-f0483642b347",
     "name": "Small Plant Pot",
     "photo": "http://localhost:8080/images/plant_pot.png",
     "price": "$28",
     "stock": 10,
-    "category": "Plant Pot",
-    "collection": "Bloom Collection",
-    "brief-description": "A charming pot designed for cacti and succulents.",
-    "full-description": "Bring life to any corner of your space with this handcrafted small plant pot. Its minimalist design beautifully complements the textures of cacti and succulents, making it a versatile choice for desktops, windowsills, and cozy nooks. The artisan glaze and earthy tones add a natural touch, enhancing your home’s ambiance.",
-    "care-tips": ["Hand wash only.", "Not dishwasher safe.", "Avoid exposure to freezing temperatures to prevent cracking.", "Clean with a soft, damp cloth to maintain the glaze." 
+    "category": "Home Decor",
+    "collection": "Bloom",
+    "briefdescription": "A charming pot designed for cacti and succulents.",
+    "fulldescription": "Bring life to any corner of your space with this handcrafted small plant pot. Its minimalist design beautifully complements the textures of cacti and succulents, making it a versatile choice for desktops, windowsills, and cozy nooks. The artisan glaze and earthy tones add a natural touch, enhancing your home’s ambiance.",
+    "caretips": ["Hand wash only.", "Not dishwasher safe.", "Avoid exposure to freezing temperatures to prevent cracking.", "Clean with a soft, damp cloth to maintain the glaze." 
     ],
     "reviews": [],
     "tags": [ "plants", "succulents", "cactus"
     ]
   },
   {
-    "id": "9",
+    "id": "387d8f13-90ce-4424-99b9-fb96b4abf92d",
     "name": "Butter Dish",
     "photo": "http://localhost:8080/images/butter_dish.png",
     "price": "$60",
     "stock": 7,
     "category": "Home Decor",
-    "collection": "Classic Collection",
-    "brief-description": "A stylish and functional butter dish.",
-    "full-description": "Elevate your dining table with this elegant butter dish, designed to keep your butter fresh and at the perfect consistency for easy spreading. The handcrafted lid fits snugly over the tray, while the classic design adds timeless charm to your kitchen setup.",
-    "care-tips": [ "Hand wash only.", "Not dishwasher safe.", "Do not soak for extended periods.", "Dry thoroughly to maintain its pristine finish." 
+    "collection": "Classic",
+    "briefdescription": "A stylish and functional butter dish.",
+    "fulldescription": "Elevate your dining table with this elegant butter dish, designed to keep your butter fresh and at the perfect consistency for easy spreading. The handcrafted lid fits snugly over the tray, while the classic design adds timeless charm to your kitchen setup.",
+    "caretips": [ "Hand wash only.", "Not dishwasher safe.", "Do not soak for extended periods.", "Dry thoroughly to maintain its pristine finish." 
     ],
     "reviews": [],
     "tags": [ "butter", "kitchen", "accessory"
     ]
   },
   {
-    "id": "10",
+    "id": "9f66fef2-4497-4c5c-8603-8ef01873a1d4",
     "name": "Jewellery Tray",
     "photo": "http://localhost:8080/images/placeholder.png",
     "price": "$25",
     "stock": 6,
     "category": "Home Decor",
-    "collection": "Home Collection",
-    "brief-description": "Organize your jewellery with elegance.",
-    "full-description": "Keep your rings, earrings, and small accessories beautifully displayed and within reach. This handcrafted jewellery tray features a sleek, minimal design that adds a touch of elegance to your dresser or vanity. The perfect blend of form and function for stylish organization.",
-    "care-tips": [ "Hand wash only.", "Not dishwasher safe.", "Use a soft cloth to clean and avoid abrasive materials.", "Dry thoroughly to maintain the finish." 
+    "collection": "Home",
+    "briefdescription": "Organize your jewellery with elegance.",
+    "fulldescription": "Keep your rings, earrings, and small accessories beautifully displayed and within reach. This handcrafted jewellery tray features a sleek, minimal design that adds a touch of elegance to your dresser or vanity. The perfect blend of form and function for stylish organization.",
+    "caretips": [ "Hand wash only.", "Not dishwasher safe.", "Use a soft cloth to clean and avoid abrasive materials.", "Dry thoroughly to maintain the finish." 
     ],
     "reviews": [],
     "tags": [ "accessory", "tray", "decor" 
     ]
   },
   {
-    "id": "11",
+    "id": "12d2a7db-1797-42db-a0b2-a55fa9f47010",
     "name": "Coffee Jar",
     "photo": "http://localhost:8080/images/placeholder.png",
     "price": "$60",
     "stock": 5,
     "category": "Home Decor",
-    "collection": "Home Collection",
-    "brief-description": "A stylish jar to keep coffee fresh.",
-    "full-description": "Store your coffee beans or grounds in this beautifully handcrafted jar, designed with an airtight seal to lock in freshness and aroma. Its sleek design makes it a stunning countertop accessory that complements any kitchen décor.",
-    "care-tips": [  "Hand wash only.", "Not dishwasher safe.", "Do not soak for prolonged periods.", "Wipe the lid and seal gently to maintain the airtight functionality."
+    "collection": "Home",
+    "briefdescription": "A stylish jar to keep coffee fresh.",
+    "fulldescription": "Store your coffee beans or grounds in this beautifully handcrafted jar, designed with an airtight seal to lock in freshness and aroma. Its sleek design makes it a stunning countertop accessory that complements any kitchen décor.",
+    "caretips": [  "Hand wash only.", "Not dishwasher safe.", "Do not soak for prolonged periods.", "Wipe the lid and seal gently to maintain the airtight functionality."
     ],
     "reviews": [],
     "tags": [  "coffee", "storage", "kitchen" 
     ]
   },
   {
-    "id": "12",
+    "id": "3f2a9c79-22c4-4835-b627-90194c8f2d2b",
     "name": "Flower Holder",
     "photo": "http://localhost:8080/images/flower_holder.png",
     "price": "$38",
     "stock": 4,
-    "category": "Plant Pot",
-    "collection": "Bloom Collection",
-    "brief-description": "Display your blooms with elegance.",
-    "full-description": "Showcase your favorite flowers in this beautifully handcrafted holder. The timeless design adds a graceful touch to any room, making it perfect for fresh blooms, dried arrangements, or as a standalone décor piece. Let it bring joy and beauty to your space.",
-    "care-tips": [ "Hand wash only.", "Not dishwasher safe.", "Avoid harsh chemicals that can damage the glaze.", "Rinse and dry thoroughly after use." 
+    "category": "Home Decor",
+    "collection": "Bloom",
+    "briefdescription": "Display your blooms with elegance.",
+    "fulldescription": "Showcase your favorite flowers in this beautifully handcrafted holder. The timeless design adds a graceful touch to any room, making it perfect for fresh blooms, dried arrangements, or as a standalone décor piece. Let it bring joy and beauty to your space.",
+    "caretips": [ "Hand wash only.", "Not dishwasher safe.", "Avoid harsh chemicals that can damage the glaze.", "Rinse and dry thoroughly after use." 
     ],
     "reviews": [],
     "tags": [ "flower", "home", "vase", "plant"
     ]
   },
   {
-    "id": "13",
+    "id": "59f9b443-04ed-4254-a416-422459e830d0",
     "name": "Soap Dispenser",
     "photo": "http://localhost:8080/images/soap_dispenser.png",
     "price": "$60",
     "stock": 9,
     "category": "Home Decor",
-    "collection": "Home Collection",
-    "brief-description": "An elegant soap dispenser for your sink.",
-    "full-description": "Add a touch of sophistication to your sink area with this beautifully handcrafted soap dispenser. The easy-to-refill design and artisan finish make it both functional and visually appealing, elevating your bathroom or kitchen décor.",
-    "care-tips": [ "Hand wash only.", "Not dishwasher safe.", "Avoid soaking or submerging the pump mechanism.", "Clean with a soft cloth to maintain its shine." 
+    "collection": "Home",
+    "briefdescription": "An elegant soap dispenser for your sink.",
+    "fulldescription": "Add a touch of sophistication to your sink area with this beautifully handcrafted soap dispenser. The easy-to-refill design and artisan finish make it both functional and visually appealing, elevating your bathroom or kitchen décor.",
+    "caretips": [ "Hand wash only.", "Not dishwasher safe.", "Avoid soaking or submerging the pump mechanism.", "Clean with a soft cloth to maintain its shine." 
     ],
     "reviews": [],
     "tags": [ "soap", "bathroom", "clean", "accessory"
     ]
   },
   {
-    "id": "14",
+    "id": "c36e7435-7dc2-49a9-b9ac-e3b05f1ed160",
     "name": "Soap Tray",
     "photo": "http://localhost:8080/images/soap_tray.png",
     "price": "$28",
     "stock": 7,
     "category": "Home Decor",
-    "collection": "Home Collection",
-    "brief-description": "Keep your soap dry and stylishly organized.",
-    "full-description": "Thoughtfully handcrafted, this soap tray features grooves to allow water to drain, keeping your soap dry between uses and extending its lifespan. A sleek addition to any bathroom sink or shower area, blending function with elegant design.",
-    "care-tips": [ "Hand wash only.", "Not dishwasher safe.", "Rinse and dry regularly to prevent soap buildup.", "Clean with a soft sponge to maintain the grooves."
+    "collection": "Home",
+    "briefdescription": "Keep your soap dry and stylishly organized.",
+    "fulldescription": "Thoughtfully handcrafted, this soap tray features grooves to allow water to drain, keeping your soap dry between uses and extending its lifespan. A sleek addition to any bathroom sink or shower area, blending function with elegant design.",
+    "caretips": [ "Hand wash only.", "Not dishwasher safe.", "Rinse and dry regularly to prevent soap buildup.", "Clean with a soft sponge to maintain the grooves."
     ],
     "reviews": [],
     "tags": [ "soap", "tray", "bathroom", "accessory"
     ]
   },
   {
-    "id": "15",
+    "id": "8a93ff84-7128-4fe7-a028-72c7824021ac",
     "name": "Hanging Lampshade",
     "photo": "http://localhost:8080/images/lamp_shade.png",
     "price": "$70",
     "stock": 4,
     "category": "Home Decor",
-    "collection": "Home Collection",
-    "brief-description": "A beautifully crafted hanging pottery lampshade.",
-    "full-description": "Elevate your living space with this elegant hanging lampshade, handcrafted from fine pottery to bring warmth and ambiance to your home. Its sleek, minimalist design adds a sophisticated touch to dining areas, kitchens, or cozy reading nooks. Let the soft, diffused lighting create a serene and inviting atmosphere.",
-    "care-tips": [ "Wipe with a damp cloth to clean.", "Avoid exposure to direct water or moisture.", "Ensure proper installation by a certified electrician.", "Clean the interior gently to maintain light diffusion."
+    "collection": "Home",
+    "briefdescription": "A beautifully crafted hanging pottery lampshade.",
+    "fulldescription": "Elevate your living space with this elegant hanging lampshade, handcrafted from fine pottery to bring warmth and ambiance to your home. Its sleek, minimalist design adds a sophisticated touch to dining areas, kitchens, or cozy reading nooks. Let the soft, diffused lighting create a serene and inviting atmosphere.",
+    "caretips": [ "Wipe with a damp cloth to clean.", "Avoid exposure to direct water or moisture.", "Ensure proper installation by a certified electrician.", "Clean the interior gently to maintain light diffusion."
     ],
     "reviews": [],
     "tags": [ "lamp", "hanging", "lighting", "home" 
     ]
   },
   {
-    "id": "16",
+    "id": "3342731a-06a0-4d2f-be0a-298b01ae899c",
     "name": "Medium Plant Pot",
     "photo": "http://localhost:8080/images/plant_pot.png",
     "price": "$38",
     "stock": 8,
-    "category": "Plant Pot",
-    "collection": "Bloom Collection",
-    "brief-description": "A versatile pot for medium-sized plants.",
-    "full-description": "This handcrafted medium plant pot is ideal for nurturing ferns, snake plants, and other medium-sized greenery. Its elegant design features a refined glaze that complements a variety of home décor styles. Add it to your living room, balcony, or workspace to create a calming and vibrant environment.",
-    "care-tips": ["Hand wash only.", "Not dishwasher safe.", "Avoid prolonged exposure to direct sunlight to prevent fading.", "Use a soft, damp cloth to clean the surface.", "Ensure proper drainage to prevent overwatering."
+    "category": "Home Decor",
+    "collection": "Bloom",
+    "briefdescription": "A versatile pot for medium-sized plants.",
+    "fulldescription": "This handcrafted medium plant pot is ideal for nurturing ferns, snake plants, and other medium-sized greenery. Its elegant design features a refined glaze that complements a variety of home décor styles. Add it to your living room, balcony, or workspace to create a calming and vibrant environment.",
+    "caretips": ["Hand wash only.", "Not dishwasher safe.", "Avoid prolonged exposure to direct sunlight to prevent fading.", "Use a soft, damp cloth to clean the surface.", "Ensure proper drainage to prevent overwatering."
     ],
     "reviews": [],
     "tags": [ "plants", "decoration", "home-decor" 
     ]
   },
   {
-    "id": "17",
+    "id": "f7724528-affe-422a-b534-e2e6447d9693",
     "name": "Large Plant Pot",
     "photo": "http://localhost:8080/images/plant_pot.png",
     "price": "$48",
     "stock": 5,
-    "category": "Plant Pot",
-    "collection": "Bloom Collection",
-    "brief-description": "A statement pot for large indoor plants.",
-    "full-description": "Make a bold statement in your home or office with this large, handcrafted plant pot. Designed for larger greenery such as fiddle leaf figs, monstera, or rubber plants, it provides ample room for growth while adding a touch of elegance to your space. The artisan craftsmanship and earthy tones bring a natural and sophisticated charm.",
-    "care-tips": ["Hand wash only.", "Not dishwasher safe.", "Avoid sudden temperature changes to prevent cracking.", "Clean with a damp cloth and mild detergent.", "Ensure proper drainage to maintain plant health."
+    "category": "Home Decor",
+    "collection": "Bloom",
+    "briefdescription": "A statement pot for large indoor plants.",
+    "fulldescription": "Make a bold statement in your home or office with this large, handcrafted plant pot. Designed for larger greenery such as fiddle leaf figs, monstera, or rubber plants, it provides ample room for growth while adding a touch of elegance to your space. The artisan craftsmanship and earthy tones bring a natural and sophisticated charm.",
+    "caretips": ["Hand wash only.", "Not dishwasher safe.", "Avoid sudden temperature changes to prevent cracking.", "Clean with a damp cloth and mild detergent.", "Ensure proper drainage to maintain plant health."
     ],
     "reviews": [],
     "tags": [ "plants", "large", "home", "decoration" 
     ]
   },
   {
-    "id": "18",
-    "name": "Coffee Mug Silicone Lid",
+    "id": "a2d3cb0e-fac4-4f66-81b5-eddbd04ce387",
+    "name": "Silicone Lid",
     "photo": "http://localhost:8080/images/coffee_lid.png",
     "price": "$8",
     "stock": 15,
     "category": "Accessories",
-    "collection": "Classic Collection",
-    "brief-description": "Take your favorite mug on any adventure with this spill-resistant silicone lid.",
-    "full-description": "Turn your favorite coffee mug into a travel-friendly companion with this flexible and durable silicone lid. Designed to fit most standard mugs, it creates a spill-resistant seal, allowing you to enjoy your coffee, tea, or any hot beverage on the go. Whether you're heading to work, exploring the outdoors, or relaxing at home, this eco-friendly and reusable lid is the perfect companion.",
-    "care-tips": [ "Hand wash or top-rack dishwasher safe.", "Do not microwave.", "Ensure a snug fit for best spill resistance.", "Store in a dry place to maintain flexibility.", "Avoid sharp objects that may puncture the silicone."
+    "collection": "Classic",
+    "briefdescription": "Take your favorite mug on any adventure with this spill-resistant silicone lid.",
+    "fulldescription": "Turn your favorite coffee mug into a travel-friendly companion with this flexible and durable silicone lid. Designed to fit most standard mugs, it creates a spill-resistant seal, allowing you to enjoy your coffee, tea, or any hot beverage on the go. Whether you're heading to work, exploring the outdoors, or relaxing at home, this eco-friendly and reusable lid is the perfect companion.",
+    "caretips": [ "Hand wash or top-rack dishwasher safe.", "Do not microwave.", "Ensure a snug fit for best spill resistance.", "Store in a dry place to maintain flexibility.", "Avoid sharp objects that may puncture the silicone."
     ],
     "reviews": [],
     "tags": [  "coffee", "silicone", "travel", "eco-friendly", "cover"
