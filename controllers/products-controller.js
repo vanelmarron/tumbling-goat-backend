@@ -1,5 +1,5 @@
-import express from "express";
 import fs from "fs";
+import { v4 as uuidv4 } from "uuid";
 
 const getAllProducts = async (req, res) => {
   try {
@@ -95,4 +95,61 @@ const getReviewById = async (req, res) => {
   }
 };
 
-export { getAllProducts, getProductById, getReviews, getReviewById };
+const postNewReview = async (req, res) => {
+try {
+  const { id } = req.params;
+  const {
+    userId, 
+    name, 
+    city, 
+    province, 
+    review, 
+    rate
+  } = req.body;
+
+  if (
+    !userId ||
+    !name || 
+    !city || 
+    !province || 
+    !review || 
+    !rate
+  ) {
+    return res.status(400).json({ message: "All fields are required"})
+  }
+
+  const data = fs.readFileSync("data/products.json", "utf-8");
+  const products = JSON.parse(data);
+  const productIndex = products.findIndex((product) => product.id === id);
+
+  if (productIndex === -1) {
+    return res.status(404).json({message: "Product not found"})
+  }
+
+  const newReview = {
+    reviewId: uuidv4(),
+    name, 
+    city, 
+    province, 
+    review, 
+    rate, 
+    timestamp: Date.now()
+  }
+
+  if (!products[productIndex].reviews) {
+    products[productIndex].reviews = [];
+  }
+
+  products[productIndex].reviews.push(newReview);
+
+  fs.writeFileSync("data/products.json", JSON.stringify(products, null, 2))
+
+  res.status(201).json({ message: "Review added successfully", newReview });
+
+} catch(error) {
+    console.log(`Error adding a new review: ${error}`);
+    res.status(500).json({ message: "Failed to add a new review" });
+  }
+}
+
+export { getAllProducts, getProductById, getReviews, getReviewById, postNewReview };

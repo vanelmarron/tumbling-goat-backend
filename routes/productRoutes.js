@@ -7,8 +7,11 @@ router.route("/").get(productsController.getAllProducts);
 
 router.route("/:id").get(productsController.getProductById);
 
-router.route("/:id/reviews").get(productsController.getReviews);
+router
+  .route("/:id/reviews")
+  .get(productsController.getReviews)
+  .post(productsController.postNewReview);
 
-router.route("/:id/reviews/:reviewId").get(productsController.getReviewById)
+router.route("/:id/reviews/:reviewId").get(productsController.getReviewById);
 
 export default router;
