@@ -8,7 +8,7 @@
     "category": "Mugs",
     "collection": "Begbie",
     "briefdescription": "A beautifully handcrafted coffee mug inspired by the majestic Begbie Mountain in Revelstoke.",
-    "fulldescription": "Embrace the rugged beauty of the outdoors with this earthy, artisan-crafted mug. The design draws inspiration from the textured landscape and natural tones of Begbie Mountain, making it both a visual and tactile delight. With its sturdy form and comfortable grip, this mug is perfect for savoring your morning coffee or afternoon tea. A true piece of craftsmanship that brings the essence of nature to your daily routine.",
+    "fulldescription": "Embrace the rugged beauty of the outdoors with this earthy, artisan-crafted mug. The design draws inspiration from the textured landscape and natural tones of Begbie Mountain, making it both a visual and tactile delight.",
     "caretips": [
       "Hand wash only to preserve the unique glaze and finish.",
       "Not dishwasher safe.",
@@ -44,7 +44,7 @@
     "category": "Mugs",
     "collection": "McPherson",
     "briefdescription": "A bold and beautifully crafted mug inspired by the rugged McPherson mountain range near Revelstoke.",
-    "fulldescription": "Channel the untamed beauty of the McPherson mountains with this artisanal mug. Carefully crafted to reflect the bold textures and rugged landscape, each piece features a rich glaze and distinctive design elements that make it truly one of a kind. Perfect for fueling your adventurous spirit with your favorite coffee or tea, this mug combines functional durability with a timeless, nature-inspired aesthetic.",
+    "fulldescription": "Channel the untamed beauty of the McPherson mountains with this artisanal mug. Carefully crafted to reflect the bold textures and rugged landscape, each piece features a rich glaze and distinctive design elements that make it truly one of a kind.",
     "caretips": [
       "Hand wash only to maintain the rich glaze and distinctive finish.",
       "Not dishwasher safe.",
@@ -64,11 +64,20 @@
       {
         "reviewId": "3cd7fdea-808f-4c7f-9d85-8cef29b9c351",
         "name": "Vanessa Lebrun",
-        "city": "Burnaby",
+        "city": "Vancouver",
         "province": "British Columbia",
         "review": "I got this mug after visiting Revelstoke. I wanted a souvenir that would remind me the good times spent on the mountain. McPherson is a special place and this mug makes me looking forward to going back",
         "rate": 5,
-        "timestamp": 1739907270083
+        "timestamp": 1739981965536
+      },
+      {
+        "reviewId": "a4197957-0d0d-480c-9323-2844a09911e0",
+        "name": "Ryan Adams",
+        "city": "Vancouver",
+        "province": "British Columbia",
+        "review": "My girlfriend got me this mug and I drink in it every day!",
+        "rate": 5,
+        "timestamp": 1739929462430
       }
     ]
   },
@@ -81,7 +90,7 @@
     "category": "Mugs",
     "collection": "Classic",
     "briefdescription": "A sleek, minimalist cup designed to warm your hands and elevate your coffee ritual.",
-    "fulldescription": "Enjoy your favorite beverages in this elegant, handle-free coffee cup, thoughtfully designed for a tactile and cozy drinking experience. Its smooth, curved shape fits perfectly in your hands, enhancing the warmth of each sip. Ideal for both hot and cold drinks, it also conveniently fits in most car cup holders, making it a stylish companion for your daily commute or morning routine. The hand-glazed ceramic surface provides a refined, artisan touch, making each piece a unique work of art.",
+    "fulldescription": "Enjoy your favorite beverages in this elegant, handle-free coffee cup, thoughtfully designed for a tactile and cozy drinking experience. Ideal for both hot and cold drinks, it also conveniently fits in most car cup holders, making it a stylish companion for your daily commute or morning routine.",
     "caretips": [
       "Hand wash only to maintain the artisan glaze and finish.",
       "Not dishwasher safe.",
@@ -101,14 +110,14 @@
   },
   {
     "id": "a6167a6f-9bda-4a17-b455-365b5e6d7c15",
-    "name": "Large Bowl - Pasta/Salad",
+    "name": "Large Bowl",
     "photo": "http://localhost:8080/images/placeholder.png",
     "price": "$50",
     "stock": 5,
     "category": "Bowl",
     "collection": "Classic",
     "briefdescription": "A beautifully crafted large bowl ideal for pasta, salads, and family-style meals.",
-    "fulldescription": "Make every meal a delightful experience with this elegant and generously sized bowl, perfect for serving hearty pastas, vibrant salads, or sharing your favorite dishes with friends and family. Expertly handcrafted, each piece showcases the artisanal touch of skilled craftsmanship, with a smooth finish and organic contours that add charm to any table setting. The durable ceramic construction ensures long-lasting use, while the minimalist design complements both casual and formal dining occasions. Whether you're hosting a dinner party or enjoying a simple family meal, this versatile bowl will elevate your presentation and dining experience.",
+    "fulldescription": "Make every meal a delightful experience with this elegant and generously sized bowl, perfect for serving hearty pastas, vibrant salads, or sharing your favorite dishes with friends and family. Expertly handcrafted, each piece showcases the artisanal touch of skilled craftsmanship, with a smooth finish and organic contours that add charm to any table setting.",
     "caretips": [
       "Hand wash only.",
       "Avoid sudden temperature changes, as this may cause cracks or breakage.",
@@ -136,7 +145,7 @@
     "category": "Bowl",
     "collection": "Classic",
     "briefdescription": "A beautifully handcrafted bowl designed to elevate your everyday dining experience.",
-    "fulldescription": "Each bowl is a testament to artisan craftsmanship, carefully shaped and glazed by hand to ensure a truly unique piece. Its versatile size makes it perfect for a variety of uses — from hearty soups and fresh salads to serving snacks or showcasing seasonal fruit. The organic finish and subtle texture highlight the meticulous attention to detail, giving each bowl its own distinct character. Durable yet refined, it seamlessly transitions from casual breakfasts to elegant dinner settings, adding timeless beauty and authenticity to your table.",
+    "fulldescription": "Each bowl is carefully shaped and glazed by hand to ensure a truly unique piece. Its versatile size makes it perfect for a variety of uses — from hearty soups and fresh salads to serving snacks or showcasing seasonal fruit. ",
     "caretips": [
       "Hand wash only.",
       "Avoid sudden temperature changes, such as placing directly from the fridge into hot water.",
@@ -164,7 +173,7 @@
     "category": "Plate",
     "collection": "Classic",
     "briefdescription": "Elegant yet durable, this plate elevates your dining experience.",
-    "fulldescription": "Crafted with meticulous attention to detail, this elegant yet durable dinner plate is designed to elevate your dining experience. Its smooth, artisan glaze not only enhances the presentation of your meals but also provides a protective layer that resists scratches and stains. The gently curved edges help contain sauces and juices, making it perfect for everything from casual weeknight dinners to more refined gatherings. Sturdy enough for daily use yet refined enough for special occasions, this plate brings timeless style and functionality to your table, ensuring every meal is served beautifully.",
+    "fulldescription": "Crafted with meticulous attention to detail, this elegant yet durable dinner plate is designed to elevate your dining experience. Its smooth, artisan glaze not only enhances the presentation of your meals but also provides a protective layer that resists scratches and stains.",
     "caretips": [
       "Hand wash recommended for longevity.",
       "Dishwasher safe on the top rack, but hand washing preserves the finish.",
@@ -189,7 +198,7 @@
     "category": "Plate",
     "collection": "Classic",
     "briefdescription": "A complete dining set for two.",
-    "fulldescription": "Transform your everyday dining experience with this beautifully handcrafted dinner set. Thoughtfully designed for couples or intimate gatherings, it includes 2 cups for warm morning beverages, 2 mugs for that perfect afternoon pick-me-up, 2 large plates to present your favorite meals elegantly, 2 versatile bowls for hearty salads or comforting soups, and 2 saucers to complete your setting with refined charm. The earthy tones and artisan craftsmanship bring warmth and sophistication to your table, making every meal feel like a special occasion. Whether it's a cozy breakfast, a vibrant lunch, or a candlelit dinner, this set elevates your dining moments with beauty and function.",
+    "fulldescription": "Transform your everyday dining experience with this beautifully handcrafted dinner set. The earthy tones and artisan craftsmanship bring warmth and sophistication to your table, making every meal feel like a special occasion. Whether it's a cozy breakfast, a vibrant lunch, or a candlelit dinner, this set elevates your dining moments with beauty and function.",
     "caretips": [
       "Hand wash only.",
       "Do not microwave or use in the oven.",

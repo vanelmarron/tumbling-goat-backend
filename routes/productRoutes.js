@@ -12,6 +12,6 @@ router
   .get(productsController.getReviews)
   .post(productsController.postNewReview);
 
-router.route("/:id/reviews/:reviewId").get(productsController.getReviewById);
+router.route("/:id/reviews/:reviewId").get(productsController.getReviewById).put(productsController.editReview)
 
 export default router;
