@@ -7,16 +7,33 @@ const getAllProducts = async (req, res) => {
     const products = JSON.parse(data);
 
     if (!products || products.length === 0) {
-        return res.status(404).json({ error: "No products found" });
-      }
+      return res.status(404).json({ error: "No products found" });
+    }
 
-    const filteredProducts = products.map(({ 
-        id, name, photo, price, stock, category, collection, briefdescription, tags 
+    const filteredProducts = products.map(
+      ({
+        id,
+        name,
+        photo,
+        price,
+        stock,
+        category,
+        collection,
+        briefdescription,
+        tags,
       }) => ({
-        id, name, photo, price, stock, category, collection, briefdescription, tags
-      }));
-      res.status(200).json(filteredProducts);
-
+        id,
+        name,
+        photo,
+        price,
+        stock,
+        category,
+        collection,
+        briefdescription,
+        tags,
+      })
+    );
+    res.status(200).json(filteredProducts);
   } catch (error) {
     console.log("Error fetching data: ", error);
     res.status(500).json({ error: error });
@@ -96,103 +113,129 @@ const getReviewById = async (req, res) => {
 };
 
 const postNewReview = async (req, res) => {
-try {
-  const { id } = req.params;
-  const {
-    reviewId, 
-    name, 
-    city, 
-    province, 
-    review, 
-    rate
-  } = req.body;
+  try {
+    const { id } = req.params;
+    const { reviewId, name, city, province, review, rate } = req.body;
 
-  if (
-    !reviewId ||
-    !name || 
-    !city || 
-    !province || 
-    !review || 
-    !rate
-  ) {
-    return res.status(400).json({ message: "All fields are required"})
-  }
+    if (!reviewId || !name || !city || !province || !review || !rate) {
+      return res.status(400).json({ message: "All fields are required" });
+    }
 
-  const data = fs.readFileSync("data/products.json", "utf-8");
-  const products = JSON.parse(data);
-  const productIndex = products.findIndex((product) => product.id === id);
+    const data = fs.readFileSync("data/products.json", "utf-8");
+    const products = JSON.parse(data);
+    const productIndex = products.findIndex((product) => product.id === id);
 
-  if (productIndex === -1) {
-    return res.status(404).json({message: "Product not found"})
-  }
+    if (productIndex === -1) {
+      return res.status(404).json({ message: "Product not found" });
+    }
 
-  const newReview = {
-    reviewId: uuidv4(),
-    name, 
-    city, 
-    province, 
-    review, 
-    rate, 
-    timestamp: Date.now()
-  }
+    const newReview = {
+      reviewId: uuidv4(),
+      name,
+      city,
+      province,
+      review,
+      rate,
+      timestamp: Date.now(),
+    };
 
-  if (!products[productIndex].reviews) {
-    products[productIndex].reviews = [];
-  }
+    if (!products[productIndex].reviews) {
+      products[productIndex].reviews = [];
+    }
 
-  products[productIndex].reviews.push(newReview);
+    products[productIndex].reviews.push(newReview);
 
-  fs.writeFileSync("data/products.json", JSON.stringify(products, null, 2))
+    fs.writeFileSync("data/products.json", JSON.stringify(products, null, 2));
 
-  res.status(201).json({ message: "Review added successfully", newReview });
-
-} catch(error) {
+    res.status(201).json({ message: "Review added successfully", newReview });
+  } catch (error) {
     console.log(`Error adding a new review: ${error}`);
     res.status(500).json({ message: "Failed to add a new review" });
   }
-}
+};
 
 const editReview = async (req, res) => {
   try {
-    const { id, reviewId} = req.params;
-    const {name, city, province, review, rate} = req.body;
+    const { id, reviewId } = req.params;
+    const { name, city, province, review, rate } = req.body;
 
-    if(!name || !city || !province || !review || !rate) {
-      return res.status(400).json({message: "All fields are required"});
+    if (!name || !city || !province || !review || !rate) {
+      return res.status(400).json({ message: "All fields are required" });
     }
     const data = fs.readFileSync("data/products.json", "utf-8");
     const products = JSON.parse(data);
     const productIndex = products.findIndex((product) => product.id === id);
 
     if (productIndex === -1) {
-      return res.status(404).json({message: "Product not found"});
+      return res.status(404).json({ message: "Product not found" });
+    }
+
+    const reviews = products[productIndex].reviews || [];
+    const reviewIndex = reviews.findIndex(
+      (review) => review.reviewId === reviewId
+    );
+
+    if (reviewId === -1) {
+      return res.status(404).json({ message: "Review not found" });
+    }
+
+    reviews[reviewIndex] = {
+      ...reviews[reviewIndex],
+      name,
+      city,
+      province,
+      review,
+      rate,
+      timestamp: Date.now(),
+    };
+
+    fs.writeFileSync("data/products.json", JSON.stringify(products, null, 2));
+
+    res
+      .status(200)
+      .json({
+        message: "Review updated successfully",
+        updatedReview: reviews[reviewIndex],
+      });
+  } catch (error) {
+    console.error(`Error updating review: ${error}`);
+    res.status(500).json({ message: "Failed to update review" });
+  }
+};
+
+const deleteReview = async (req, res) => {
+  try {
+    const { id, reviewId } = req.params;
+    const data = fs.readFileSync("data/products.json", "utf-8");
+    const products = JSON.parse(data);
+    const productIndex = products.findIndex((product) => product.id === id);
+
+    if (productIndex === -1) {
+      return res.status(404).json({ message: "Product not found" });
     }
 
     const reviews = products[productIndex].reviews || [];
     const reviewIndex = reviews.findIndex((review) => review.reviewId === reviewId);
 
-    if(reviewId === -1) {
-      return res.status(404).json({message: "Review not found"})
+    if (reviewIndex === -1) {
+      return res.status(404).json({ message: "Review not found" });
     }
 
-    reviews[reviewIndex] = {
-      ...reviews[reviewIndex], 
-      name, 
-      city, 
-      province, 
-      review, 
-      rate, 
-      timestamp: Date.now()
-    }
-
+    reviews.splice(reviewIndex, 1);
     fs.writeFileSync("data/products.json", JSON.stringify(products, null, 2));
-
-    res.status(200).json({message: "Review updated successfully", updatedReview: reviews[reviewIndex]})
-
-  } catch(error) {
-    console.error(`Error updating review: ${error}`)
-    res.status(500).json({message: "Failed to update review"})
+    res.status(200).json({ message: "Review deleted successfully" });
+  } catch (error) {
+    console.error(`Error deleting review: ${error}`);
+    res.status(500).json({ message: "Failed to delete review" });
   }
-}
+};
 
-export { getAllProducts, getProductById, getReviews, getReviewById, postNewReview, editReview };
+export {
+  getAllProducts,
+  getProductById,
+  getReviews,
+  getReviewById,
+  postNewReview,
+  editReview,
+  deleteReview,
+};
