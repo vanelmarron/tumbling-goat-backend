@@ -99,7 +99,7 @@ const postNewReview = async (req, res) => {
 try {
   const { id } = req.params;
   const {
-    userId, 
+    reviewId, 
     name, 
     city, 
     province, 
@@ -108,7 +108,7 @@ try {
   } = req.body;
 
   if (
-    !userId ||
+    !reviewId ||
     !name || 
     !city || 
     !province || 
