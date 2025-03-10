@@ -3,6 +3,7 @@ import cors from "cors";
 import dotenv from "dotenv";
 
 import productRoutes from "./routes/productRoutes.js";
+import usersRoutes from "./routes/usersRoutes.js";
 
 const app = express();
 dotenv.config();
@@ -17,6 +18,8 @@ app.get("/", (req, res) => {
 });
 
 app.use("/api/products", productRoutes);
+
+app.use("/users", usersRoutes);
 
 app.listen(PORT, () => {
   console.log(`Server listening on  http://localhost:${PORT}`);
