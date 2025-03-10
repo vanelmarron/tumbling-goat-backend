@@ -5,7 +5,8 @@
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "node --watch index.js"
+    "dev": "node --watch index.js",
+    "knex": "knex"
   },
   "author": "Vanessa Lebrun",
   "license": "ISC",
@@ -14,6 +15,8 @@
     "cors": "^2.8.5",
     "dotenv": "^16.4.7",
     "express": "^4.21.2",
+    "knex": "^3.1.0",
+    "mysql2": "^3.13.0",
     "nodemon": "^3.1.9",
     "uuid": "^11.0.5"
   }
